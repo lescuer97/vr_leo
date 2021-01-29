@@ -29,7 +29,7 @@ const Map = () => {
         {...viewport}
         {...settings}
         
-        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
+        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN.toString()}
         mapStyle="mapbox://styles/lescuer97/ck8smt6s30qkb1inv05vw3kbj"
         onViewportChange={(view) => {
           setViewport(view);
