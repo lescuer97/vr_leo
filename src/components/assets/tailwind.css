@@ -1,0 +1,123 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+@import './customCSS.css';
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+  #footer {
+    @apply bg-gray-100;
+    @apply text-gray-800;
+    @apply bg-opacity-100;
+    text-align: center;
+  }
+
+  #footer input,
+  #footer select,
+  #footer textarea {
+    @apply text-gray-800;
+  }
+
+  #footer a {
+    @apply text-gray-800;
+  }
+
+  #footer strong,
+  #footer b {
+    @apply text-gray-800;
+  }
+
+  #footer h1,
+  #footer h2,
+  #footer h3,
+  #footer h4,
+  #footer h5,
+  #footer h6 {
+    @apply text-gray-800;
+  }
+
+  #footer blockquote {
+    border-left-color: transparent;
+  }
+
+  #footer code {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: transparent;
+  }
+
+  #footer hr {
+    border-bottom-color: transparent;
+  }
+
+  #footer a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    color: #a5a9ad;
+  }
+
+/* 
+  #footer a:active,
+  #footer a:focus,
+  #footer a:hover {
+    color: #fff;
+  } */
+
+  #footer .inner {
+    padding: 2em 0 1em 0;
+    border-top: solid 1px rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  #footer ul.icons li {
+    padding-right: 2.5em;
+  }
+
+  /* #footer ul.icons li:last-child {
+    padding-right: 0;
+  } */
+
+  #footer .copyright {
+    color: #a5a9ad;
+    font-size: 0.9em;
+    margin: 0 0 2em 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+
+  #footer .copyright li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0.1em;
+  }
+
+  @media screen and (max-width: 980px) {
+    #footer .inner {
+      padding: 5em 0 3em 0;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 736px) {
+    #footer .inner {
+      padding: 3em 0 1em 0;
+    }
+
+    #footer .copyright li {
+      display: block;
+      margin: 0;
+    }
+
+    #footer ul.icons li {
+      font-size: 0.9em;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    #footer .inner {
+      padding: 2em 0 0.1em 0;
+    }
+  }
+}

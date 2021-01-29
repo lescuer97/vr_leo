@@ -1,0 +1,11 @@
+{
+  "games": [
+    { "id": "1", "name": "Bitsaber", "imgName": "beatSaber.jpg" },
+    {
+      "id": "2",
+      "name": "Job Simulator",
+      "imgName": "jobSimulator.jpg"
+    },
+    { "id": "3", "name": "Pavlov", "imgName": "pavlov.webp" }
+  ]
+}

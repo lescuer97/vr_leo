@@ -1,0 +1,34 @@
+{
+  "centros": [
+    {
+      "id": "local_1",
+      "name": "Getafe",
+      "address": "Calle de Esparteros, 1",
+      "postcode": "28012",
+      "coordinates": [40.4163577, -3.7049787],
+      "city": "Madrid",
+      "country": "Spain",
+      "equipos": 4,
+      "horario": {
+        "dias": ["lunes - sabado"],
+        "horas": ["11:00 - 14:00", "15:00 - 21:00"]
+      },
+      "maps_link": "https://www.google.com/maps/place/Calle+de+Esparteros,+1,+28012+Madrid/@40.4163611,-3.7071106,17z/data=!3m1!4b1!4m5!3m4!1s0xd42287e5c8f3021:0x60582170e6106b4f!8m2!3d40.4163611!4d-3.7049219"
+    },
+    {
+      "id": "local_3",
+      "name": "Avenida de la Ilustración",
+      "address": "Calle de Fermín Caballero, 80",
+      "postcode": "28034",
+      "coordinates": [40.4795736, -3.7176321],
+      "city": "Madrid",
+      "country": "Spain",
+      "equipos": 6,
+      "horario": {
+        "dias": ["lunes - sabado"],
+        "horas": ["9:00 - 13:00", "15:00 - 21:00 "]
+      },
+      "maps_link": "https://www.google.com/maps/place/Calle+de+Ferm%C3%ADn+Caballero,+80,+28035+Madrid/@40.4805933,-3.7189255,17z/data=!3m1!4b1!4m5!3m4!1s0xd422991121c27d9:0x8528e57b2d22ea10!8m2!3d40.4805933!4d-3.7167368"
+    }
+  ]
+}
